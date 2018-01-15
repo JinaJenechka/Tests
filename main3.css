@@ -72,7 +72,7 @@ header h2 {
 }
 
 #button:hover {
-	border: 6px solid rgb(221, 156, 8);
+	border: 2px solid rgb(221, 156, 8);
 	height: 35px;	
 	width: 35px;
 	position: absolute;
@@ -113,7 +113,6 @@ header h2 {
 	max-width: 2000px;
 	max-height: 2000px;
 	background: black;
-	border-radius: 500px;
 	opacity: 0.9;
 	-webkit-animation-name: zoom;
 	-webkit-animation-duration: 0.2s;
@@ -123,12 +122,12 @@ header h2 {
 
 #caption {
 	display: block;
+	position: absolute;
 	margin: auto;
 	position: absolute;
-	margin-left: 550px;
-	margin-top: 240px;
+	margin-left: 250px;
+	margin-top: 250px;
 	max-width: 700px;
-	text-align: center;
 	color: white;
 	font-size: 15px;
 	height: 150px;
@@ -140,7 +139,7 @@ header h2 {
 	top: 200px;
 	width: 250px;
 	height: 250px;
-	border: 1px solid white;
+	border: 2px solid white;
 	background: black;
 	border-radius: 200px;
 }
@@ -161,7 +160,9 @@ header h2 {
 }
 
 #button2:hover {
-	border: 6px solid transparent;
+	position: absolute;
+	border: 2px solid rgb(221, 156, 8);
+	background: rgb(221, 156, 8);
 	height: 35px;
 	width: 35px;
 	padding: 4px;
@@ -181,13 +182,13 @@ header h2 {
 .close2 {
 	display: block;
 	position: absolute;
-	background-color: red;
-	border-radius: 50px;
+	background-color: darkred;
+	border-radius: 40px;
 	left: 99px;
 	top: 99px;
-	border: 2px solid red;
-	padding: 8px;
-    transition: 0.2s, height 0.2s ease, top 0.2s ease, left 0.2s ease;
+	border: 8px solid darkred;
+	opacity: 1;
+    transition: 0.2s ease, height 0.2s ease, top 0.2s ease, left 0.2s ease;
 }
 
 .close2:hover {
@@ -200,7 +201,6 @@ header h2 {
 	max-width: 2000px;
 	max-height: 2000px;
 	background: black;
-	border-radius: 500px;
 	opacity: 0.9;
 	-webkit-animation-name: zoom;
 	-webkit-animation-duration: 0.2s;
@@ -227,7 +227,18 @@ header h2 {
 	top: 200px;
 	width: 250px;
 	height: 250px;
-	border: 1px solid white;
-	background: black;
+	border: 2px solid white;
 	border-radius: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
