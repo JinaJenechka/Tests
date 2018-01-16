@@ -33,11 +33,7 @@ img2.onclick = function() {
 }
 
 var span2 = document.getElementsByClassName("close2")[0];
-<<<<<<< HEAD
 span2.onlick = function() {
-=======
-span.onlick = function() {
->>>>>>> 6f72cddff204a1bd7e0e2e3c0e7172b52279dee9
     modal2.style.display = "none";
 }
 
